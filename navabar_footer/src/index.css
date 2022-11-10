@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.fa-solid {
+  margin-right: 20px;
+}
+.fa-cart-shopping {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.fa-brands {
+
+}
+.app_link {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  border: 1px white solid;
+}
+/* . style={{display:"inline-block", width: "10%", height: "70%", border: "1px solid black" }} */
+.likha_hua{
+  width: 100%;
+  height:300px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:60px;
+}
+.likha_hua div{
+  margin-top: 40px;
+  /* border: solid; */
+}
+.likha_hua p{
+color: #fff;
+font-size: 17px;
+margin-bottom: 10px;
+
+}
+.bottom_section_footer{
+  width: 100%;
+  font-size: 15px;
+  margin: auto;
+  display: flex;
+  gap:67px;
+  color: #fff;
+}
+.footer_section{
+  width: 80%;
+  height: 50px;
+  /* border: solid; */
+  margin:0 auto 10px auto;
+  /* border: solid grey; */
+}
