@@ -33,10 +33,11 @@ code {
   height:300px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap:40px;
+  gap:60px;
 }
 .likha_hua div{
-  border: solid;
+  margin-top: 40px;
+  /* border: solid; */
 }
 .likha_hua p{
 color: #fff;
