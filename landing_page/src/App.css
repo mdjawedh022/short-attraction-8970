@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.canvas {
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+}
+
+.hero-image {
+  background-image: url("https://assets.interntheory.com/creative/Homepage-Banner.png");
+  background-position: center bottom;
+  min-height: 60vh;
+}
+
+.overlay {
+  background-color: rgba(53, 53, 53, 0.726);
+  min-height: 61vh;
+  /* display: flex; */
+  text-align: center;
+  color: white;
+  padding-top: 170px;
+}
+.overlay div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay div h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.overlay div button {
+  background-color: red;
+  padding: 0px 15px;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.overlay div p {
+  font-weight: 300;
+}
+/* .................second.............. */
+.mission {
+  background: #ffffff;
+  min-height: 75vh;
+}
+.massion1 {
+  width: 85%;
+  /* border: 1px solid black; */
+  /* height: auto; */
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+/* .massion1 div,.massion_logo div{
+  border: 1px solid black;
+} */
+
+.massion_logo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 20px 45px;
+}
+.massion_tag {
+  width: 100%;
+  margin: auto;
+  /* text-align: center; */
+}
+.massion_tag div {
+  display:flex;
+}
+.massion_tag h1{
+  font-size: 25px;
+  font-weight: 650;
+}
+.massion_tag span  {
+  color: red;
+  font-size: 25px;
+  margin-left: 7px;
+}
+.massion_tag p{
+font-size: 15px;
+}
+/* ............................. */
+.experience {
+  display: flex;
+  justify-content: center;
+}
+.experience>h1 {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.work_experience {
+  margin: 0 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+}
+
+.work_experience :nth-child(1) {
+  background: url("https://assets.interntheory.com/creative/home-internships/Marketing-Icon.jpg")
+    center center / cover;
+  overflow: hidden;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 4px;
+  height: 180px;
+}
+.work_experience :nth-child(2){background: url("https://assets.interntheory.com/creative/home-internships/BD.jpg")
+  center center / cover;
+overflow: hidden;
+border: 1px solid rgb(238, 238, 238);
+border-radius: 4px;
+height: 180px;}
+.work_experience :nth-child(3){
+  background: url("https://assets.interntheory.com/creative/home-internships/Content-Writing.jpg")
+  center center / cover;
+overflow: hidden;
+border: 1px solid rgb(238, 238, 238);
+border-radius: 4px;
+height: 180px;
+}
+.work_experience :nth-child(4){
+  background: url("https://assets.interntheory.com/creative/home-internships/Graphic.jpg")
+  center center / cover;
+overflow: hidden;
+border: 1px solid rgb(238, 238, 238);
+border-radius: 4px;
+height: 180px;
+}
+.work_experience :nth-child(5){
+  background: url("https://assets.interntheory.com/creative/home-internships/Finance.jpg")
+  center center / cover;
+overflow: hidden;
+border: 1px solid rgb(238, 238, 238);
+border-radius: 4px;
+height: 180px;
+}
+.work_experience :nth-child(6){
+  background: url("https://assets.interntheory.com/creative/home-internships/HR.jpg")
+  center center / cover;
+overflow: hidden;
+border: 1px solid rgb(238, 238, 238);
+border-radius: 4px;
+height: 180px;
+}
+.work_experience :nth-child(7){
+  background: url("https://assets.interntheory.com/creative/home-internships/Eng.jpg")
+  center center / cover;
+overflow: hidden;
+border: 1px solid rgb(238, 238, 238);
+border-radius: 4px;
+height: 180px;
+}
+.work_experience :nth-child(8){
+  background: url("https://assets.interntheory.com/creative/home-internships/All-Internships.jpg")
+  center center / cover;
+overflow: hidden;
+border: 1px solid rgb(238, 238, 238);
+border-radius: 4px;
+height: 180px;
+}
+.experience span,.upskill1 span {
+  color: rgb(221, 31, 45);
+  font-size: 35px;
+  margin-left: 10px;
+}
+/* display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+} */
+/* .........................four............... */
+.upskill{
+  background: rgb(238, 238, 238);
+  padding: 80px 0px 90px;
+  width: 100%;
+  margin-top: 80px;
+}
+.upskill1 h1,span{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.upskill1{
+  display: flex;
+  justify-content:center;
+}
+.upskill2{
+  /* width: 80%; */
+  /* border: solid; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 2% 10%;
+  gap:20px
+}
+.upskill2 :nth-child(1){
+  background: url(https://assets.interntheory.com/creative/home-courses/Homepage-stock.jpg) center center / cover;
+    overflow: hidden;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    height: 180px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+   
+}
+.upskill2 :nth-child(2){
+  background: url("https://assets.interntheory.com/creative/home-courses/Homepage-digital.jpg") center center / cover;
+    overflow: hidden;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    height: 180px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+   
+}
+.upskill2 :nth-child(3){
+  background: url("https://assets.interntheory.com/creative/home-courses/Homepage-web.jpg") center center / cover;
+    overflow: hidden;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    height: 180px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+   
+}
+
+
+/* ..................five............... */
+
+.growing{
+  padding: 30px 10%;
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:300px;
+     gap: 50px;
+    background: rgb(255, 255, 255);
+}
+/* ` */
+.growing1 img{
+  width:58%;
+ margin: -9% auto 0 auto;
+}
+.growing2 div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+
+}
+.growing2 h1{
+  font-size: 28px;
+  font-weight: 650;
+}
+.growing2 span{
+  font-size: 28px;
+  color: red;
+  margin-left: 10px;
+
+}
+/* ................slider.................. */
+.slid{
+  
+   width:100%;
+ background-color:rgb(241, 235, 235)
+}
+.append_data{
+  margin-top:20px;
+  display: flex;
+  margin-right: 10px;
+  width: 100%;
+  background-color:white;
+  border-radius: 10px;
+
+}
+.append_data img{
+  border-radius: 50%;
+}
+.append_data div{
+  padding: 10px;
+}
+.append_data h3{
+  font-weight: 600;
+}
+.append_data p{
+  font-size: 14px;
+}
