@@ -21,7 +21,6 @@
 .signup1{
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   box-sizing: border-box;
   background-image: url(https://assets.interntheory.com/creative/Web-Banner.jpg);
   background-size: cover;
@@ -40,13 +39,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -6%;
+  font-size: 20PX;
+  margin-bottom: 10PX;
+  
 }
 .loginfacebook{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:20px;
+  gap:50px;
   background-color: #4267B2;
   width: 80%;
   margin:auto;
@@ -60,15 +61,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:20px;
+  gap:50px;
   background-color: #087CDD;
   width: 80%;
-  margin:10PX auto;
+  margin:15px auto;
   border-radius: 5px;
   color: white;
 }
 .fa-brands{
   font-size: 25PX;
+  font-weight: 600;
+  padding:  10px;
 }
 /* ......................... */
 .login_form{

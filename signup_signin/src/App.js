@@ -2,13 +2,15 @@
 import './App.css';
 import SignUp from './Components/SignUp';
 import SignIn from './Components/SignIn'
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-     <SignUp/>
-     <SignIn/>
-    </div>
+    <Routes>
+      <Route path='signin' element={<SignIn/>}/>
+      <Route path='signup' element={<SignUp/>}/>
+
+    </Routes>
   );
 }
 
